@@ -3,8 +3,20 @@
 
 .navbar {
   background-color: rgba(74, 74, 96, 0.584)!important;
-};
 
+};
+.navbar-brand {
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: xx-large;
+  text-shadow: 1px 1px 2px lightgray;
+}
+.nav-item {
+  font-size: x-large;
+  text-align: right;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: ghostwhite;
+}
 #body {
   font-family: 'Montserrat', sans-serif;
   // font-family: 'Oswald', sans-serif;

@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import utils from '../../helpers/utils';
 import './bio.scss';
 
