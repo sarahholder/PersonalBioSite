@@ -1,25 +1,10 @@
 {
   "project1": {
-    "title": "", 
-    "screenshot": "http://gotoflashgames.com/files/file/033.jpg", 
-    "description": "This is the best project", 
-    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-    "available": true,
-    "url": "https://github.com/nss-evening-cohort-8/js-part-deux", 
-    "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
-  },
-  "project2": {
-    "title": "Cool Project", 
-    "screenshot": "http://gotoflashgames.com/files/file/033.jpg", 
-    "description": "This is the best project",
-    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-    "available": true,
-    "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
-    "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
-  },
-  "project3": {
-    "title": "Cool Project", 
-    "screenshot": "http://gotoflashgames.com/files/file/033.jpg", 
+    "title": "Mushroom Mania", 
+    "screenshot1": "", 
+    "screenshot2": "", 
+    "screenshot3": "",
+    "screenshot4": "", 
     "description": "This is the best project", 
     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
     "available": true,
