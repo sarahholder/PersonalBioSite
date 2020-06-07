@@ -1,0 +1,50 @@
+{
+  "project1": {
+    "title": "Mushroom Mania", 
+    "screenshot1": "https://lh3.googleusercontent.com/pw/ACtC-3eVtY79OFeGpmpS376pzO-N5nZaaU5yQcMdQsqe-dJgpNLl3GUM71KD8NJuhAJb4XklzVpjx7s0-j-90rwbI683nn2pvaPJbFhj8NHcHlbrvU2VhBKtOy2qoxR7j9v8b2ZIzg4BEmjP-wphmgopAzCu=w1074-h1325-no?authuser=0", 
+    "screenshot2": "https://lh3.googleusercontent.com/pw/ACtC-3dllSf88gBVpMWs0E0lj71cwIHxqFYqNglzwwnG1KiHw_d6uklJ-j25hLHV9m4jsMp606ehvjklzdDgS5TRjxmI0HUDsscw510K-Roc6UPmQnRPKIyw7tfD30VGd-ZDVBcroSRK5eALDi1qJmAQZ95m=w1840-h1000-no?authuser=0", 
+    "screenshot3": "https://lh3.googleusercontent.com/pw/ACtC-3ePhm9jZqrY6u1DLSsd2kHIu15W5rYMTmuJG14yZLy0aPzFwJDL0YutCFKp70UPxE3T_AdSBEZW1FWejzF6KaQ34v9U0DSHcTL3bDWd0NRCsm66VLCRuZy6LrTANoPR54OCpTsYn0XQ9_3oPwoL0OqK=w1065-h539-no?authuser=0",
+    "screenshot4": "https://lh3.googleusercontent.com/pw/ACtC-3cBFsaaf1TttlpiGG0UijLWSQk8JHve1-113i6IDvZDDBBeHzhfphhsAFsuYwdddYx7teoLUeIIp53SdDRMBHYsaPlmy1zQhkZRh85-3473BUeLVJzw9AzLH4h6fezHr3sAvF7pbMNjUE9XaaZG2Zvq=w1074-h1328-no?authuser=0", 
+    "description": "Time to help Mario collect one of each mushroom in the forest. Using React under the hood to make the magic happen. This project was an introductory project to React. Focusing on data and components for a better understanding of how data is minipulated, communicated and displayed using React.", 
+    "technologiesUsed": "React, Reactstrap, Bootstrap, SASS, ES6, HTML5, Javascript, Webpack",
+    "available": true,
+    "url": "https://mushroom-mania-sh.web.app/", 
+    "githubUrl": "https://github.com/sarahholder/mushroom-picker"
+  },
+  "project2": {
+    "title": "Pinterest Reboot", 
+    "screenshot1": "https://lh3.googleusercontent.com/pw/ACtC-3fZnizeXiSri9FUFUO6u_DlNHVTGv7Q4qzTAB-mNuxanSavuz3Iir-JaUcpMEDkAMtmNMPfpQn0AzjHvyOSLHPw3IfQcHK8fn_BcwQfDnPoIkxK4OgOXuZpp0m9fVXT7QX2JWIksZo6C6HlhMOnn7CK=w1048-h1396-no?authuser=0", 
+    "screenshot2": "https://lh3.googleusercontent.com/pw/ACtC-3fDYHDElJQ0NMNyrX_otdNiywSag_QB1xouTdHsMigY6hUJlThzBB_b5ncJ2gzFv0Kn-IUBhfF8hLKFe4qMOT5rLQucfStt7g5NetP8oDExX9_9tLox1pPN7my-k95JvJCoAlNGWQZYJoW6At7IB2NG=w1048-h1396-no?authuser=0", 
+    "screenshot3": "https://lh3.googleusercontent.com/pw/ACtC-3eUwMXL2NjFNMSjlycBOw1_03504DwbVB9pGUdAKX0VAUi_7Qf2cMtdehOPqOrSplSeYAab3GvF15OUygohsU4KxzOZlNWvMEmOOmznUPoSp0QMhJ3uMEL-RPPGIempwoj5eRFgIlhyZTMFcLbqOuyz=w1528-h525-no?authuser=0",
+    "screenshot4": "https://lh3.googleusercontent.com/pw/ACtC-3etQo1zP_iT4R2h8v-rRV3qgEVLv3ZSjw2NIXlgzBOblD9fGzc74RVAEi92IjoTe5sK6-vkgfJPI2kCcDhjtdyJy9fgMGGl6lvUYhjpJOVqUEjpbkrver-da3jhokBW8tu-ddJAUhMV8MtWcUA6PeLF=w1520-h806-no?authuser=0", 
+    "description": "Nss project that mimics the well-known website, Pinterest. In this recreation a user will login to see boards and pins associated with their authenticated unique id. Each board has its own group of pins. Users are able to view, update, add and delete boards and pins. A navigational back button floats on the pins view that allows a user to go back to the boards view. And users can move pins to different board names through the update feature.", 
+    "technologiesUsed": "HTML5, CSS, Javascript, jQuery, SASS, Bootstrap, Webpack, and Firebase",
+    "available": true,
+    "url": "https://pinterest-7dd20.web.app/", 
+    "githubUrl": "https://github.com/sarahholder/pinterest"
+  },
+  "project3": {
+    "title": "Sports Roster", 
+    "screenshot1": "https://lh3.googleusercontent.com/pw/ACtC-3drhCuNyUNVnRHDLYknK27cBjtptT7AAUluvvJ-Z44_3h1dYVTPChvUI5EJM5o9nk651DIHOWPSqyylDSnn_Q4GQMVEd-9IpSqhwEkOjbqcbXfntWgudJAtmpzLUoPMyI6OAIzLi5okTmPUczSNJK8x=w1840-h1004-no?authuser=0", 
+    "screenshot2": "https://lh3.googleusercontent.com/pw/ACtC-3ftj6X_9DUDbXICG7JhnygB4Y7N9gZe8OS6l2Aqx1Inlw8a2EF_YvC1IjTP9Mzfa-95EpNeBJjdXLWWdVb8FduqaGMIfmW6lOxMRAr0XP9IMVyvpZe3obiOSOFuZr653Agjn-SseftQBD2fxkw8y8nD=w1840-h1008-no?authuser=0", 
+    "screenshot3": "https://lh3.googleusercontent.com/pw/ACtC-3dbUt5r3qA17I31zGePCZShP5pXDfjZbAr89i1H56w7jITQG-A34tt9z3A0B_ytLZBnJxxAkH2neLD000L4Og0jJzjmB5SrynwEzgEPfgpdxaaHuRcEM08WZorq4wEXTxyk97SaInPV0Oi1BhRfFq3Q=w1840-h974-no?authuser=0",
+    "screenshot4": "https://lh3.googleusercontent.com/pw/ACtC-3cxN7S4CY2rL_s2zcOpB-8BsqGUMH9DPG5hv01HCUyW18PABTcO9IyLpTZoExxKlNrfwV5_sY-39VYbqxoy7sKjOUTwPl38o_IIgnh26eMaTES8gzu3lzWlABsjOaYSaZIEF2qtQDwjuFKGFBlfWNR6=w1840-h476-no?authuser=0", 
+    "description": "Keeping track of your sports roster never looked so good. This project is an exercise to stretch further along into React. This site allows users to view the current roster, update players, add new players and delete players. Through the use of firebase and authenication only authorized users can view, edit, update and delete.", 
+    "technologiesUsed": "HTML5, CSS, Javascript, jQuery, SASS, Bootstrap, Webpack, React and Firebase",
+    "available": true,
+    "url": "https://ut-vols.web.app/", 
+    "githubUrl": "https://github.com/sarahholder/sports-roster"
+  },
+  "project4": {
+    "title": "PanAm Airlines", 
+    "screenshot1": "https://lh3.googleusercontent.com/pw/ACtC-3elMl7PDuVNlXlVk2X2TPl4Wj2fXjEJ5FXY2b50Q6lQr7mWo0e0_x9ygZnyKCwh3bGvbDYRFH2HV2-ySPKfolJXGVt8Onyha40fRx9A2elJ6ady-o0J4QXNM6y5INClArPVFOYwFxGQRMEvAfv2RYqP=w1840-h1006-no?authuser=0", 
+    "screenshot2": "https://lh3.googleusercontent.com/pw/ACtC-3fhXy04SXO0ky0362VHCbPJTZ5pj_O7fIztvSwbDBCu1xi5diKUHkLDz49HdeOyF6O02AReoBfkZY6kiGj3D6ykLto0tX9H6048JpeV_VAvn24T_njTZLTt6Xzc31XTC0VU6W0IVpNeMCNIFdmDccMl=w1840-h920-no?authuser=0", 
+    "screenshot3": "https://lh3.googleusercontent.com/pw/ACtC-3cB1Kvh2kGLmPah1fC4TZCp3wN7zIXhbpa6JT5pj82PVSs5-tOchyqF6s7T_afNqwzxSi43Z250KdyQS9r-daQ7iu53YRnicD2z4__Ge324wX7uhFMmd1282eZn_I5guR8CVfqW4GuOfWkh5HUAN7Y0=w1840-h854-no?authuser=0",
+    "screenshot4": "https://lh3.googleusercontent.com/pw/ACtC-3f1K_IZ29d7yblzinbMJE2Ujnvj-nzmuVsU0Z9UnYyQfjJlwS5CalUuJjKtR0OCbKpVSGjQpSG_o-G23zRtbMrw0M6Vs_cVrut88F9i6M1h3OH-yvUDcpSTC2LOTu2B10hKq-N9Ww7hBKYM5jjRHPXE=w1840-h740-no?authuser=0", 
+    "description": "Resurrecting PanAm Airlines website for their return to the air! Airline needed a dashboard site to track airports, airplanes, crew and food for the airline. Anyone can view the available dashboard and the information contained, but only authorized users can update, create, and delete elements.", 
+    "technologiesUsed": "Firebase, bootstrap, SASS, Axios API, ESLint, FontAwesome, JSON, jQuery, google authentication, and HTML5",
+    "available": true,
+    "url": "", 
+    "githubUrl": "https://github.com/sarahholder/nutshell-droids"
+  }
+}
