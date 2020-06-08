@@ -4,7 +4,7 @@ import './imageHeading.scss';
 const printImageHeading = () => {
   let domString = '';
   domString += `
-  <div class="frame">
+  <div class="frame ">
     <div class="picture"></div>
     <div class="social email">
         <a href="mailto:sr.holder@yahoo.com" target="sr.holder@yahoo.com">
