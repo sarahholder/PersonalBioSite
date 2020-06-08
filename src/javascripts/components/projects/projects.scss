@@ -21,10 +21,11 @@ body{
     transition: all .5s cubic-bezier(.8,.5,.2,1.4);
     overflow: hidden;
     margin: 2rem;
+    min-height: 600px; 
 }
 .card img{
     width: 100%;
-    height:100%;
+    height: 100%;
     transition: all .5s cubic-bezier(.8,.5,.2,1.4);
 }
 .descriptions{
