@@ -3,7 +3,6 @@ import './imageHeading.scss';
 
 const printImageHeading = () => {
   let domString = '';
-
   domString += `
   <div class="frame">
     <div class="picture"></div>
