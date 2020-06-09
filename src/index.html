@@ -8,23 +8,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Caveat&family=Great+Vibes&family=Lovers+Quarrel&family=Montserrat&family=Open+Sans&family=Ruthie&family=Shadows+Into+Light&display=swap" rel="stylesheet">
   <link href="/src/styles/main.scss" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+</head>
 <body>
-  <nav class="navbar navbar-expand-xl dropright fixed-top navbar-light bg-light pb-1 pl-5 pt-1 pr-5">
-    <a class="navbar-brand center p-0 m-0" href="#footer"><h1 class="p-0">Sarah Holder</h1></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon white-text"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link pt-1" href="#printImageDiv">Home</a>
-        <a class="nav-link pt-1" href="#aboutDiv">About</a>
-        <a class="nav-link pt-1" href="#techDiv">Technologies</a>
-        <a class="nav-link pt-1" href="#projectsDiv">Projects</a>
-        <a class="nav-link pt-1" href="#footer">Contact</a>
-      </div>
-    </div>
-  </nav>
-  <div id="page-container">
+  <div id="myNav"></div>
+  <div id="page-container" data-spy="scroll" data-target="thisNavRocks" data-offset="0">
     <div id="printImageDiv" class="print-img"></div>
     <div id="aboutDiv"></div>
     <div id="techDiv"></div>

@@ -15,6 +15,7 @@ body{
   background-size: cover;
   color: #ccc;
   font-family: 'Montserrat', sans-serif;
+  position: relative;
 }
 h1{
   font-size: 3.5rem;
@@ -41,6 +42,7 @@ h2{
   font-size: x-large;
   text-align: right;
   margin-left: 2rem;
+  padding-top: 30px;
 }
 .navbar-light .navbar-nav .nav-link, .nav{
   color: ghostwhite;
