@@ -17,12 +17,11 @@ $transition:all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
 	i{
 		opacity:1;
 		font-size:20vw;
-		margin: 10vw 37vw;
+		margin: 10vw 37vw;	
 	}
-
 }
 body{
-	width:100%;
+	width:100vh;
 	height:100vh;
 	background-color:$body;
   display: flex;
@@ -57,12 +56,12 @@ body{
 				display:contents;
 				i{
 					color:white;
-					margin:7px;
-					opacity:0;
+					margin:auto;
+					opacity: 0;
 				}
       } 
       &.email{
-        bottom:26vw;
+				bottom:26vw;
 				background-color: $email;
 				&:hover,&:focus{@extend %focus-it;}
       }

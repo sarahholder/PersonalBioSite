@@ -6,22 +6,17 @@ body{
     height:100vh;
     font-family: 'Lato';
 }
-.wrapper{
-    display: flex;
-    flex-wrap: wrap;
-}
 .card{
     flex: 1;
     flex-basis: auto;
     flex-grow: 0;
     background: #fff;
-    border: 2px solid #fff;
     box-shadow: 0px 4px 7px rgba(0,0,0,.5);
     cursor: pointer;
     transition: all .5s cubic-bezier(.8,.5,.2,1.4);
     overflow: hidden;
-    margin: 2rem;
-    min-height: 600px; 
+    margin: .5rem;
+    padding: 0;
 }
 .card img{
     width: 100%;
@@ -64,7 +59,6 @@ body{
     border-style: none;
     background-color: #FFDD40;
     color:rgb(80, 78, 78);
-    font-size: 15px;
     outline: none;
     box-shadow: 0px 2px 3px rgba(0,0,0,.4);
     transition: all .5s ease-in-out;

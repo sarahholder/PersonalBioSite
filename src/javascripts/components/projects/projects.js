@@ -9,10 +9,10 @@ const printProjects = () => {
       let domString = '';
       domString += '<div class="myContainer">';
       domString += '<h2>Projects</h2>';
-      domString += '<div class="text-center d-flex flex-wrap row">';
+      domString += '<div class="row">';
       projects.forEach((project) => {
         domString += `
-      <div class="wrapper col-lg-6">
+        <div class="d-flex flex-wrap justify-content-center col-md-6 col-lg-4 m-0 p-0">
         <div class="card">
             <img src="${project.screenshot1}"/>
             <div class="descriptions">
