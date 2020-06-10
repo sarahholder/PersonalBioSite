@@ -12,7 +12,7 @@ const printProjects = () => {
       domString += '<div class="row">';
       projects.forEach((project) => {
         domString += `
-        <div class="d-flex flex-wrap justify-content-center col-md-6 col-lg-3 m-0 p-0">
+        <div class="d-flex flex-wrap justify-content-center col-sm-6 col-lg-3 m-0 p-0">
         <div class="card">
             <img src="${project.screenshot1}"/>
             <div class="descriptions d-flex flex-wrap justify-content-center align-content-center">
