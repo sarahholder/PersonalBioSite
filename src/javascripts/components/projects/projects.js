@@ -18,10 +18,9 @@ const printProjects = () => {
             <div class="descriptions">
                 <h2>${project.title}</h2>
                 <p>${project.description}</p>
-                <div class="d-flex flex-wrap justify-content-center">
-                <button>
-                    <i class="fas fa-search-plus"></i>
-                    View Full Project Details
+                <div class="d-flex flex-wrap justify-content-end">
+                <button class="pl-4 pr-4 pt-2 pb-2">
+                    <a href="${project.url}">Website<i class="ml-2 fas fa-external-link-alt"></i></a>
                 </button>
                 </div>
             </div>
