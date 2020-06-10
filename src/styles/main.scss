@@ -6,30 +6,30 @@
 // font-family: 'Open Sans', sans-serif;
 // font-family: 'Ruthie', cursive;
 // font-family: 'Shadows Into Light', cursive;
-.active {
-  border : 3px solid red;
-}
+
 body{
   background-color: rgb(209, 209, 209);
   background:  rgba(74, 74, 96, 0.584)!important;
-  background-size: cover;
-  color: #ccc;
   font-family: 'Montserrat', sans-serif;
-  position: relative;
 }
+
 h1{
-  font-size: 3.5rem;
   letter-spacing: 10px;
   color:lightgrey;
   // font-family: 'Amatic SC', cursive;
   font-family: 'Shadows Into Light', cursive;
 }
 h2{
-  font-size: 6rem;
-  color: rgba(74, 74, 96, 0.584)!important;
-  margin: 2rem;
+  color: rgba(74, 74, 96, 0.9)!important;  
 }
-.navbar, footer {
+h3 {
+  color: #ccc;
+}
+
+p{
+  color:gray;
+}
+.navbar {
   background-color: rgba(74, 74, 96, 0.584)!important;
 }
 .navbar-brand {
@@ -47,74 +47,55 @@ h2{
 .navbar-light .navbar-nav .nav-link, .nav{
   color: ghostwhite;
 }
-.myContainer{
-  margin: 4rem;
-}
-.footerContainer{
-  width: 100%;
-  padding: 2rem;
-}
-#page-container {
-  position: relative;
-  min-height: 100vh;
-}
-#content-wrap{
-  padding-bottom: 2.5rem;    /* Footer height */
-}
-#footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;            /* Footer height */
-}
+
 .print-img{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.card h2{
-  font-size:3rem;
+
+i{
+  color: white;
 }
-.card p{
-  color:rgb(80, 78, 78);
+.contactEmail:hover{
+  color:#dea5A4;
+  text-shadow: 0px 0px 8px lightgray;
+}
+.contactPhone:hover{
+  color:#FFDD40;
+  text-shadow: 0px 0px 8px lightgray;
+}
+.contactLinkedin:hover{
+  color:#007bb5;
+  text-shadow: 0px 0px 8px lightgray;
+}
+.contactGithub:hover{
+  color:#43464B;
+  text-shadow: 0px 0px 8px lightgray;
+}
+footer{
+  background-color: rgba(74, 74, 96, 0.9)!important;
+  width: 100vw !important;
 }
 @media(min-width: 1200px){
+  .maxWidth{
+    width: 1400px;
+  }
+  #content-wrap{
+    display:flex;
+    flex: wrap;
+    justify-content: center;
+}
   h1{
-    font-size: 5rem;
+    font-size: 4rem;
   }
   h2{
-    font-size: 6rem;
-  }
-  .print-img{
-    margin-top: 5rem;
-  }
-  .container{
-    width: 100%;
-  }
-  .moqupIcon{
-    height: 2rem;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  .techIcon {
-    width: auto;
-    height: 8rem;
+    font-size: 4rem;
     margin: 2rem;
   }
-  .iTech{
-    font-size: 8rem;
-    margin: 2rem;
-  }
-}
-@media(min-width: 700px){
-  h1{
+  h3{
     font-size: 3rem;
   }
-  h2{
-    font-size: 6rem;
-  }
   .print-img{
     margin-top: 5rem;
   }
@@ -136,17 +117,68 @@ h2{
   .iTech{
     font-size: 8rem;
     margin: 2rem;
-  } 
+  }
+  .contact {
+    font-size: 4vw;
+    margin: 1rem;
+  }
 }
+
+@media(min-width: 700px){
+  .myContainer{
+    margin: 5rem;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  h2{
+    font-size: 2.5rem;
+    margin: 2rem;
+  }
+  h3{
+    font-size: 1.4rem;
+  }
+  .print-img{
+    margin-top: 5rem;
+  }
+  .container{
+    width: 100%;
+  }
+  .moqupIcon{
+    height: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .techIcon {
+    width: auto;
+    height: 5rem;
+    margin: 1rem;
+  }
+  .iTech{
+    font-size: 5rem;
+    margin: 2rem;
+  } 
+  .contact {
+    font-size: 5vw;
+    margin: 1rem;
+  }
+}
+
 @media(max-width: 700px){
+  .myContainer{
+    margin: 3rem;
+  }
   h1{
     font-size: 2rem;
   }
   h2{
     font-size: 2rem;
+    margin: 1.5rem;
   }
-  h4{
-    font-size:1.4rem;
+  h3{
+    font-size:1rem;
   }
   .print-img{
     margin-top: 4rem;
@@ -171,4 +203,9 @@ h2{
     height: 4rem;
     margin: 1rem;
   }
+  .contact {
+    font-size: 5vw;
+    margin: 1rem;
+  }
+
 }

@@ -12,15 +12,15 @@ const printProjects = () => {
       domString += '<div class="row">';
       projects.forEach((project) => {
         domString += `
-        <div class="d-flex flex-wrap justify-content-center col-md-6 col-lg-4 m-0 p-0">
+        <div class="d-flex flex-wrap justify-content-center col-md-6 col-lg-3 m-0 p-0">
         <div class="card">
             <img src="${project.screenshot1}"/>
-            <div class="descriptions">
-                <h2>${project.title}</h2>
+            <div class="descriptions d-flex flex-wrap justify-content-center align-content-center">
+                <h4>${project.title}</h4>
                 <p>${project.description}</p>
-                <div class="d-flex flex-wrap justify-content-end">
-                <button class="pl-4 pr-4 pt-2 pb-2">
-                    <a href="${project.url}">Website<i class="ml-2 fas fa-external-link-alt"></i></a>
+                <div class="d-flex flex-wrap justify-content-center">
+                <a href="${project.url}">
+                <button class="pl-4 pr-4 pt-2 pb-2"><h3>Website<i class="ml-2 fas fa-external-link-alt"></i></h3></a>
                 </button>
                 </div>
             </div>
