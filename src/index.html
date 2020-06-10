@@ -8,30 +8,42 @@
   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Caveat&family=Great+Vibes&family=Lovers+Quarrel&family=Montserrat&family=Open+Sans&family=Ruthie&family=Shadows+Into+Light&display=swap" rel="stylesheet">
   <link href="/src/styles/main.scss" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+</head>
 <body>
-  <nav class="navbar navbar-expand-xl dropright fixed-top navbar-light bg-light pb-1 pl-5 pt-1 pr-5">
-    <a class="navbar-brand center p-0 m-0" href="#footer"><h1 class="p-0">Sarah Holder</h1></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon white-text"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link pt-1" href="#printImageDiv" data-target="collapse">Home</a>
-        <a class="nav-link pt-1" href="#aboutDiv" data-target="#aboutDiv"><span class="sr-only">(current)</span>About</a>
-        <a class="nav-link pt-1" href="#techDiv" data-target="collapse">Technologies</a>
-        <a class="nav-link pt-1" href="#projectsDiv" data-target="collapse">Projects</a>
-        <a class="nav-link pt-1" href="#footer" data-target="collapse">Contact</a>
+  <div id="page-container" data-spy="scroll" data-target="thisNavRocks" data-offset="0">
+    <div id="content-wrap">
+      <div class="maxWidth">
+      <div id="myNav"></div>
+      <div id="printImageDiv" class="print-img"></div>
+      <div id="aboutDiv"></div>
+      <div id="techDiv"></div>
+      <div id="projectsDiv"></div>
       </div>
     </div>
-  </nav>
-  <div id="printImageDiv" class="print-img"></div>
-  <div id="aboutDiv"></div>
-  <div id="techDiv"></div>
-  <div id="projectsDiv"></div>
-  <footer id="footer" class="page-footer footerContainer">
-    <div >
-    contact me: 867-5309  
-  </div>
+    <footer id="footer" class="page-footer m-0">
+      <div class="row d-flex flex-wrap justify-content-center">
+        <div>
+          <a href="mailto:sr.holder@yahoo.com" target="sr.holder@yahoo.com">
+            <i class="contact contactEmail fas fa-envelope-square"></i>
+          </a>
+        </div>
+        <div>
+          <a href="https://github.com/sarahholder" target="https://github.com/sarahholder">
+            <i class="contact contactGithub fab fa-github-square"></i>
+          </a>
+        </div>
+        <div>
+          <a href="https://www.linkedin.com/in/sarah-holder-nashville/" target="https://www.linkedin.com/in/sarah-holder-nashville/">
+          <i class="contact contactLinkedin fab fa-linkedin"></i>
+          </a>
+        </div>
+        <div>
+          <a href="tel:850-774-6453" target="850-774-6453">
+            <i class="contact contactPhone fas fa-phone-square-alt"></i>
+          </a>
+        </div>
+      </div>
     </footer>
+  </div>
 </body>
 </html>

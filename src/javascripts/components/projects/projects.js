@@ -9,20 +9,25 @@ const printProjects = () => {
       let domString = '';
       domString += '<div class="myContainer">';
       domString += '<h2>Projects</h2>';
-      domString += `<div class="text-center">
-<div class="d-flex flex-wrap align-content-center">`;
+      domString += '<div class="row">';
       projects.forEach((project) => {
-        domString += `<div class="card">
-          <div class="card-body">
-            <div class="card-title">${project.title}</div>
-            <img class="img-fluid" src="${project.screenshot1}"  class="card-top-img" alt="${project.title}">
-          </div>
-        </div>`;
-
+        domString += `
+        <div class="d-flex flex-wrap justify-content-center col-md-6 col-lg-3 m-0 p-0">
+        <div class="card">
+            <img src="${project.screenshot1}"/>
+            <div class="descriptions d-flex flex-wrap justify-content-center align-content-center">
+                <h4>${project.title}</h4>
+                <p>${project.description}</p>
+                <div class="d-flex flex-wrap justify-content-center">
+                <a href="${project.url}">
+                <button class="pl-4 pr-4 pt-2 pb-2"><h3>Website<i class="ml-2 fas fa-external-link-alt"></i></h3></a>
+                </button>
+                </div>
+            </div>
+        </div>
+    </div>`;
         utils.printToDom('projectsDiv', domString);
       });
-      domString += '</div>';
-      domString += '</div>';
       domString += '</div>';
       domString += '</div>';
     })
