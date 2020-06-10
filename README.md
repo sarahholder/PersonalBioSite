@@ -10,6 +10,8 @@ This is a portfolio website to highlight and express my personal journey as a fu
 ![home page view](screenshots/homeView.png)
 **About and Tech View**
 ![about and tech view](screenshots/aboutAndTech.png)
+**Each card flips for project information**
+![card flip](screenshots/projectCardFlip.png)
 **Projects and Footer View**
 ![projects and footer view](screenshots/projectsAndFooter.png)
 
