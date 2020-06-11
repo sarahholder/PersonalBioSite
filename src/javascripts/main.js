@@ -11,11 +11,11 @@ import '../styles/main.scss';
 
 
 const init = () => {
+  myNav.printNav();
   imageHeading.printImageHeading();
   about.printAbout();
   tech.printTech();
   projects.printProjects();
-  myNav.printNav();
 };
 
 init();

@@ -10,11 +10,11 @@ const printNav = () => {
       </button><div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
         <ul class="navbar-nav nav nav-pills">  
         <li class="nav-item">  
-          <a class="nav-link pt-1" href="#printImageDiv">Home</a>
+          <a class="nav-link pt-1" href="#top">Home</a>
         </li>  
         <li class="nav-item">  
           <a class="nav-link pt-1" href="#aboutDiv">About</a>
-        </li>  
+        </li>
         <li class="nav-item">  
           <a class="nav-link pt-1" href="#techDiv">Technologies</a>
         </li>  
