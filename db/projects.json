@@ -45,7 +45,7 @@
     "description": "I cry your mercy.. Mine eyes doth taketh interest in thee website here.  This site is all about managing a renaissance event company and all the great things they have to offer. This site allows a business to make, edit, and update events and the event details. Each event can have different details added including, staff, shows, souvenirs, food, and animal encounters", 
     "technologiesUsed": "Firebase, bootstrap, SASS, Axios API, ESLint, FontAwesome, JSON, jQuery, google authentication, and HTML5",
     "available": true,
-    "url": "https://renaissance-faire.firebaseio.com", 
+    "url": "https://renaissance-faire.web.app/", 
     "githubUrl": "https://github.com/sarahholder/renaissance-fair-sh"
   }
 }
