@@ -4,8 +4,8 @@ import './tech.scss';
 
 const printTech = () => {
   let domString = '';
-  domString += '<div class="myContainer">';
   domString += '<h2>Technologies</h2>';
+  domString += '<div class="myContainer">';
   domString += '<div class="text-center d-flex flex-wrap align-content-center justify-content-center">';
   domString += '<i class="iTech devicon-javascript-plain colored"></i>';
   domString += '<i class="iTech devicon-bootstrap-plain-wordmark colored"></i>';

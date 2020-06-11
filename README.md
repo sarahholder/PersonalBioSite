@@ -15,7 +15,7 @@ This is a portfolio website to highlight and express my personal journey as a fu
 **Projects and Footer View**
 ![projects and footer view](screenshots/projectsAndFooter.png)
 
-## View deployed site: https://sarah-holder-sh.web.app/
+## View deployed site: <https://sarah-holder-sh.web.app/>
 
 ## How to Run Locally
 

@@ -7,14 +7,37 @@
 // font-family: 'Ruthie', cursive;
 // font-family: 'Shadows Into Light', cursive;
 
+#aboutDiv:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -75px; // Set the Appropriate Height
+  height: 75px; // Set the Appropriate Height
+  visibility: hidden; 
+}
+#techDiv:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -30px; // Set the Appropriate Height
+  height: 30px; // Set the Appropriate Height
+  visibility: hidden; 
+}
+#projectsDiv:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -30px; // Set the Appropriate Height
+  height: 30px; // Set the Appropriate Height
+  visibility: hidden; 
+}
 body{
   background-color: rgb(209, 209, 209);
   background:  rgba(74, 74, 96, 0.584)!important;
   font-family: 'Montserrat', sans-serif;
+  color: #ccc;
 }
-
+.myContainer{
+  margin-bottom: 35px;
+}
 h1{
-  letter-spacing: 10px;
   color:lightgrey;
   // font-family: 'Amatic SC', cursive;
   font-family: 'Shadows Into Light', cursive;
@@ -25,7 +48,9 @@ h2{
 h3 {
   color: #ccc;
 }
-
+h4{
+  color: rgba(74, 74, 96, 1)!important; 
+}
 p{
   color:gray;
 }
@@ -52,8 +77,8 @@ p{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 35px;
 }
-
 i{
   color: white;
 }
@@ -76,71 +101,27 @@ i{
 footer{
   background-color: rgba(74, 74, 96, 0.9)!important;
   width: 100vw !important;
+  margin: 0;
 }
-.page-footer{
+footer{
   width: 100vw;
 }
-@media(min-width: 1200px){
-  .maxWidth{
-    width: 1400px;
-  }
-  #content-wrap{
-    display:flex;
-    flex: wrap;
-    justify-content: center;
-}
-p{
-  font-size: .8rem;
- }
-  h1{
-    font-size: 4rem;
-  }
-  h2{
-    font-size: 4rem;
-    margin: 2rem;
-  }
-  h3{
-    font-size: 3rem;
-  }
-  .print-img{
-    margin-top: 5rem;
-  }
-  .container{
-    width: 100%;
-  }
-  .moqupIcon{
-    height: 2rem;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  .techIcon {
-    width: auto;
-    height: 8rem;
-    margin: 2rem;
-  }
-  .iTech{
-    font-size: 8rem;
-    margin: 2rem;
-  }
-  .contact {
-    font-size: 4vw;
-    margin: 1rem;
-  }
-}
-
 
 @media(min-width: 700px){
-  .myContainer{
-    margin-left: 5rem;
-    margin-right: 5rem;
+  .frame{
+		width:90vw;
+    height:40vw;
   }
-  #content-wrap{
-   width: 100vw;
-}
+  body{
+     width: 100vw;
+  } 
+  .myContainer{
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
   h1{
     font-size: 2rem;
+    letter-spacing: 7px;
   }
   h2{
     font-size: 2.5rem;
@@ -149,6 +130,9 @@ p{
   h3{
     font-size: 1.4rem;
   }
+  p{
+    font-size: .9rem;
+   }
   .print-img{
     margin-top: 5rem;
   }
@@ -175,51 +159,108 @@ p{
     font-size: 5vw;
     margin: 1rem;
   }
-p{
-  font-size: 1rem;
- }
 }
-
-@media(max-width: 700px){
-  .myContainer{
-    margin: 3rem;
+@media(min-width: 1400px){
+  .maxWidth{
+    margin: 0 20vw;
   }
   h1{
-    font-size: 2rem;
+    font-size: 4rem;
+    letter-spacing: 7px;
   }
   h2{
-    font-size: 2rem;
-    margin: 1.5rem;
+    font-size: 3rem;
+    margin: 2rem;
   }
   h3{
-    font-size:1rem;
+    font-size: 2rem;
+  }
+  h4{
+    font-size: 2rem;
   }
   p{
-    font-size: .8rem;
+    font-size: 1rem;
   }
   .print-img{
-    margin-top: 4rem;
+    margin-top: 8rem;
   }
   .container{
     width: 100%;
   }
   .moqupIcon{
-    width: auto;
-    height: 30px;
+    height: 2rem;
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 1rem;
     margin-right: 1rem;
   }
+  .techIcon {
+    width: auto;
+    height: 8rem;
+    margin: 2rem;
+  }
   .iTech{
-    font-size: 4rem;
+    font-size: 8rem;
+    margin: 2rem;
+  }
+  .contact {
+    font-size: 4vw;
     margin: 1rem;
+  }
+  .projects{
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+}
+@media(max-width: 700px){
+  .frame{
+		width:90vw;
+    height:40vw;
+  }
+  body{
+     width: 100vw;
+  } 
+  h1{
+    font-size: 2rem;
+    letter-spacing: 4px;
+  }
+  h2{
+    font-size: 2rem;
+    margin: .5rem;
+  }
+  h3{
+    font-size: 1rem;
+  }
+  p{
+    font-size: .8rem;
+   }
+
+  .print-img{
+    margin-top: 5rem;
+  }
+  .container{
+    width: 100%;
+  }
+  .myContainer{
+    margin-left: .5rem;
+    margin-right: .5rem;
+  }
+  .moqupIcon{
+    height: 1.2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: .50rem;
+    margin-right: .50rem;
   }
   .techIcon {
     width: auto;
-    height: 4rem;
-    margin: 1rem;
+    height: 3rem;
+    margin: .5rem;
   }
+  .iTech{
+    font-size: 3rem;
+    margin: 1rem;
+  } 
   .contact {
     font-size: 5vw;
     margin: 1rem;
