@@ -18,10 +18,9 @@ const printProjects = () => {
             <div class="descriptions d-flex flex-wrap justify-content-center align-content-center">
                 <h4>${project.title}</h4>
                 <p>${project.description}</p>
-                <div class="d-flex flex-wrap justify-content-center">
-                  <a href="${project.url}">
-                  <button class="pl-4 pr-4 pt-2 pb-2"><h3>Website<i class="ml-2 fas fa-external-link-alt"></i></h3></a>
-                  </button>
+                <div>
+                  <a href="${project.url}"><button class="pl-4 pr-4 pt-2 pb-2"><h3><i class="pt-2 fa-lg fas fa-external-link-alt"></i></h3></a></button>
+                   <a href="${project.githubUrl}"><button class="pl-4 pr-4 pt-2 pb-2"><h3><i class="pt-2 fa-lg fab fa-github-square"></i></h3></a></button>
                 </div>
           </div>
         </div>
